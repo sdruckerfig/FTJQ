@@ -1,0 +1,27 @@
+[
+	{
+		"firstName": "Tina",
+		"lastName": "Tourquoise",
+		"role": "Manager"
+	},
+	{
+		"firstName": "Bob",
+		"lastName": "Brown",
+		"role": "Contributor"
+	},
+	{
+		"firstName": "Oscar",
+		"lastName": "Orange",
+		"role": "Contributor"
+	},
+	{
+		"firstName": "Ricky",
+		"lastName": "Red",
+		"role": "Contributor"
+	},
+	{
+		"firstName": "Patty",
+		"lastName": "Purple",
+		"role": "Manager"
+	}
+]

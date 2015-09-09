@@ -1,0 +1,19 @@
+.container {
+	width: 50%;
+	font-family: sans-serif;
+}
+.controlBar {
+	padding: 10px;
+}
+.display {
+	padding: 20px;
+	height: 400px;
+	border: 2px solid grey;
+}
+.item {
+	float: left;
+	padding: 10px;
+}
+.highlight {
+	background-color: grey;
+}

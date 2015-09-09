@@ -1,0 +1,104 @@
+<html>
+<head>
+	<title>FTjQ: Implementing page control widgets</title>
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.10.0.custom/css/ui-lightness/jquery-ui-1.10.0.custom.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+
+	<!-- MENU FROM INLINE LINKS -->
+	<!-- 	
+	<ul id="cities" class="city-menu">
+		<li>
+			<a href="content/portland.html">Portland</a>
+			<ul>
+				<li><a href="content/portland.html#coffee">Coffee</a></li>
+				<li><a href="content/portland.html#bookstores">Bookstores</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="content/brooklyn.html">Brooklyn</a>
+			<ul>
+				<li><a href="content/brooklyn.html#coffee">Coffee</a></li>
+				<li><a href="content/brooklyn.html#bookstores">Clothing</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="content/austin.html">Austin</a>
+			<ul>
+				<li><a href="content/austin.html#coffee">Coffee</a></li>
+				<li><a href="content/austin.html#music">Music</a></li>
+			</ul>
+		</li>
+	</ul> 
+	-->
+
+	<!-- ACCORDION FROM INLINE TEXT -->
+	<!--
+	<div id="title">Choose</div>
+	<div id="cities">
+		<h3>Portland</h3>
+		<div id="cities-1">
+			<p>Ennui messenger bag tousled food truck readymade. Cosby sweater 8-bit shoreditch, retro street art etsy thundercats kale chips semiotics skateboard bespoke. Biodiesel farm-to-table terry richardson, umami next level vegan scenester PBR. VHS blog beard, cliche carles mixtape aesthetic letterpress tonx ethnic lo-fi cred high life. Ugh polaroid squid try-hard. Helvetica blog keffiyeh retro, sriracha vinyl mixtape readymade bushwick salvia. Thundercats flannel helvetica bushwick yr, pop-up wes anderson deep v viral selvage kogi.</p>
+
+			<p>Hashtag brooklyn fashion axe blog umami cliche. Squid trust fund plaid, master cleanse locavore mumblecore gluten-free pork belly street art. PBR pour-over blue bottle neutra. Put a bird on it meh gluten-free quinoa, VHS kogi letterpress hoodie before they sold out twee. Meh freegan portland, neutra direct trade locavore carles you probably haven't heard of them next level american apparel chambray. PBR mustache mlkshk aesthetic meggings gentrify. Vinyl raw denim truffaut quinoa.</p>
+		</div>
+		<h3>Brooklyn</h3>
+		<div id="cities-2">
+			<p>High life flannel Austin, literally organic vice beard. PBR echo park cliche, portland seitan pitchfork locavore trust fund leggings. Irony keytar seitan, wolf cosby sweater post-ironic brooklyn pop-up ennui next level retro aesthetic portland VHS whatever. Wolf single-origin coffee tofu, pitchfork kale chips selvage biodiesel raw denim locavore post-ironic fanny pack. Yr portland odd future, bespoke lomo bicycle rights DIY aesthetic tattooed vice lo-fi letterpress umami keffiyeh. Mixtape mustache ugh photo booth. Mustache next level street art, blue bottle authentic banjo gentrify twee iphone.</p>
+
+			<p>Fanny pack typewriter hashtag, sartorial kale chips shoreditch authentic biodiesel pickled. Butcher bushwick before they sold out artisan iphone, williamsburg fingerstache gluten-free tonx. Deep v helvetica post-ironic, carles VHS +1 letterpress banjo chambray wolf direct trade tofu mcsweeney's. Squid pour-over YOLO twee, 3 wolf moon biodiesel fingerstache tofu. Lomo fap tofu master cleanse kogi, 8-bit thundercats hashtag. Trust fund fashion axe hoodie, american apparel vice pickled flexitarian try-hard odd future. 3 wolf moon jean shorts high life, dreamcatcher chambray master cleanse selfies authentic.</p>
+		</div>
+		<h3>Austin</h3>
+		<div id="cities-3">
+			<p>Locavore carles synth cliche twee. Semiotics lomo gastropub, terry richardson organic neutra chambray. Meggings swag organic biodiesel, mlkshk try-hard godard pop-up typewriter banh mi aesthetic irony cray. Lomo trust fund bespoke wes anderson occupy chambray, aesthetic banh mi intelligentsia. Iphone salvia high life put a bird on it. Vice actually forage tumblr, vegan chambray 3 wolf moon ethnic selfies artisan. Brunch banh mi pinterest freegan, meh messenger bag mcsweeney's.</p>
+
+			<p>Skateboard gastropub flexitarian, polaroid hella artisan cardigan banh mi irony tofu marfa 90's forage quinoa disrupt. Messenger bag forage farm-to-table mcsweeney's tonx blog. Vinyl pickled Austin, fashion axe semiotics kogi brooklyn. Fingerstache wes anderson literally, whatever terry richardson viral deep v skateboard flannel gastropub authentic. Butcher ugh locavore truffaut seitan banjo, fingerstache wayfarers meh flexitarian single-origin coffee marfa flannel disrupt. Food truck deep v aesthetic truffaut, put a bird on it hella lomo beard sriracha. Trust fund odd future skateboard, gluten-free meh kale chips cliche banjo wayfarers pug fanny pack try-hard mustache.</p>
+		</div> 
+	</div>
+	-->
+
+	<!-- TABS FROM INLINE TEXT -->
+	<!--
+	<div id="title">Choose</div>
+	<div id="cities">
+ 		<ul>
+			<li><a href="#cities-1">Portland</a></li>
+			<li><a href="#cities-2">Brooklyn</a></li>
+			<li><a href="#cities-3">Austin</a></li>
+		</ul>
+		<div id="cities-1">
+			<p>Ennui messenger bag tousled food truck readymade. Cosby sweater 8-bit shoreditch, retro street art etsy thundercats kale chips semiotics skateboard bespoke. Biodiesel farm-to-table terry richardson, umami next level vegan scenester PBR. VHS blog beard, cliche carles mixtape aesthetic letterpress tonx ethnic lo-fi cred high life. Ugh polaroid squid try-hard. Helvetica blog keffiyeh retro, sriracha vinyl mixtape readymade bushwick salvia. Thundercats flannel helvetica bushwick yr, pop-up wes anderson deep v viral selvage kogi.</p>
+
+			<p>Hashtag brooklyn fashion axe blog umami cliche. Squid trust fund plaid, master cleanse locavore mumblecore gluten-free pork belly street art. PBR pour-over blue bottle neutra. Put a bird on it meh gluten-free quinoa, VHS kogi letterpress hoodie before they sold out twee. Meh freegan portland, neutra direct trade locavore carles you probably haven't heard of them next level american apparel chambray. PBR mustache mlkshk aesthetic meggings gentrify. Vinyl raw denim truffaut quinoa.</p>
+		</div>
+		<div id="cities-2">
+			<p>High life flannel Austin, literally organic vice beard. PBR echo park cliche, portland seitan pitchfork locavore trust fund leggings. Irony keytar seitan, wolf cosby sweater post-ironic brooklyn pop-up ennui next level retro aesthetic portland VHS whatever. Wolf single-origin coffee tofu, pitchfork kale chips selvage biodiesel raw denim locavore post-ironic fanny pack. Yr portland odd future, bespoke lomo bicycle rights DIY aesthetic tattooed vice lo-fi letterpress umami keffiyeh. Mixtape mustache ugh photo booth. Mustache next level street art, blue bottle authentic banjo gentrify twee iphone.</p>
+
+			<p>Fanny pack typewriter hashtag, sartorial kale chips shoreditch authentic biodiesel pickled. Butcher bushwick before they sold out artisan iphone, williamsburg fingerstache gluten-free tonx. Deep v helvetica post-ironic, carles VHS +1 letterpress banjo chambray wolf direct trade tofu mcsweeney's. Squid pour-over YOLO twee, 3 wolf moon biodiesel fingerstache tofu. Lomo fap tofu master cleanse kogi, 8-bit thundercats hashtag. Trust fund fashion axe hoodie, american apparel vice pickled flexitarian try-hard odd future. 3 wolf moon jean shorts high life, dreamcatcher chambray master cleanse selfies authentic.</p>
+		</div>
+		<div id="cities-3">
+			<p>Locavore carles synth cliche twee. Semiotics lomo gastropub, terry richardson organic neutra chambray. Meggings swag organic biodiesel, mlkshk try-hard godard pop-up typewriter banh mi aesthetic irony cray. Lomo trust fund bespoke wes anderson occupy chambray, aesthetic banh mi intelligentsia. Iphone salvia high life put a bird on it. Vice actually forage tumblr, vegan chambray 3 wolf moon ethnic selfies artisan. Brunch banh mi pinterest freegan, meh messenger bag mcsweeney's.</p>
+
+			<p>Skateboard gastropub flexitarian, polaroid hella artisan cardigan banh mi irony tofu marfa 90's forage quinoa disrupt. Messenger bag forage farm-to-table mcsweeney's tonx blog. Vinyl pickled Austin, fashion axe semiotics kogi brooklyn. Fingerstache wes anderson literally, whatever terry richardson viral deep v skateboard flannel gastropub authentic. Butcher ugh locavore truffaut seitan banjo, fingerstache wayfarers meh flexitarian single-origin coffee marfa flannel disrupt. Food truck deep v aesthetic truffaut, put a bird on it hella lomo beard sriracha. Trust fund odd future skateboard, gluten-free meh kale chips cliche banjo wayfarers pug fanny pack try-hard mustache.</p>
+		</div> 
+	</div>		
+	-->
+
+	<!-- TABS FROM EXTERNAL FILES -->	
+	
+	<div id="title">Choose</div>
+	<div id="cities">
+		 <ul>
+			<li><a href="content/portland.html">Portland</a></li>
+			<li><a href="content/brooklyn.html">Brooklyn</a></li>
+			<li><a href="content/austin.html">Austin</a></li>
+		</ul>
+	</div> 
+	
+
+	<script type="text/javascript" src="js/jquery-ui-1.10.0.custom/js/jquery-1.9.0.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

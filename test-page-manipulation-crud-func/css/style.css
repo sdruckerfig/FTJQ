@@ -1,0 +1,21 @@
+
+#container {
+	font-family: sans-serif;
+	border: 2px solid grey;
+	padding: 10px;
+}
+.title1 {
+	font-size: x-large;
+	font-weight: bold;
+}
+.title2 {
+	font-size: large;
+	font-weight: bold;
+}
+.tableDisplay {
+	width: 800px;
+	border: 2px solid grey;
+}
+tr:nth-child(odd) { 
+	background-color:#c9f0b1;
+}

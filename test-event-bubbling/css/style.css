@@ -1,0 +1,28 @@
+
+
+#container {
+	padding-left: 50px;
+}
+.operatorAnchor, .resultAnchor {
+	color: #009933;
+}
+.numberAnchor {
+	color: #33cc33;
+}
+#result, #display {
+	height: 60px;
+	text-overflow: ellipsis;
+}
+table {
+	width: 300px;
+}
+td {
+	border: 1px solid grey;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+}
+a {
+	text-decoration: none;
+}

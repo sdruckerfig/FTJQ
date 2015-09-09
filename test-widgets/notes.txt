@@ -1,0 +1,27 @@
+
+Autocomplete
+- completes text field based on values in provided source string array
+
+Datepicker
+- adds popup date picker on text field focus
+
+Slider
+- creates a slider along a specified scale, with events
+
+Button
+- configurable button types, checkbox and radio behavior, toolbars
+
+Dialogue
+- model and non-modal dialogs and popup forms
+
+Exercise Concept: non copyright book reviews
+- Autocomplete for title (auto-fill related author to show event)
+- Datepickers for start to read and finished reading dates
+- Datepicker for review date
+- Textarea for comments
+- Slider with snap increments for 1 to 10 rating
+- Slider with min-max range for how much you'd pay for a vintage copy
+- Button to submit review
+- Button as radio yes|no whether you'd buy a vintage copy if available for price
+- Dialog for validations
+- Dialog for email address if "if you'd buy" is true

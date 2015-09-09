@@ -1,0 +1,38 @@
+
+fieldset {
+	width: 500px;
+	font-family: sans-serif;
+}
+fieldset p {
+	clear: both;
+	padding: 5px;
+}
+legend {
+	font-size: 24px;
+	font-weight: bold;
+}
+label.field {
+	text-align: right;
+	width: 150px;
+	float: left;
+	color: 009900;
+	font-weight: bold;
+}
+input, textarea, button, span {
+	margin-left: 10px;
+	width: 40%;
+}
+#ratingslider, #offerslider {
+	width: 225px;
+	float: left;
+	margin-left: 170px;
+}
+#conditionbuttonset {
+	float: left;
+	margin-left: 170px;	
+}
+#offerwidgets {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #bfffc7;
+}

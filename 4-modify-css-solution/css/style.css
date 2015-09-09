@@ -1,0 +1,55 @@
+#container {
+	width: 850px;
+	font-family: sans-serif;
+}
+#controlBar, #messageBar {
+	padding: 10px;
+}
+#cart {
+	float: right;
+	width: 400px;
+	text-align: right;
+	font-family: sans-serif;
+	border: 2px solid grey;
+}
+#message {
+	font-size: 24px;
+}
+#saleMessage {
+	font: italic bold 14px, sans-serif;
+	color: #cf4d47;
+	border: 5px solid red;
+	padding: 5px;
+	display: none;
+}
+#image {
+	vertical-align: middle;
+	padding-right: 10px;
+}
+.display {
+	padding: 20px;
+	height: 500px;
+	border: 2px solid grey;
+}
+.item {
+	float: left;
+	padding: 10px;
+	margin: 10px;
+}
+.office {
+	background-color: #0d90b5;
+}
+.home {
+	background-color: #c9f0b1;
+}
+.sale {
+	outline: 10px solid #cf4d47;
+}
+.selected {
+	background-color: #04c283;
+}
+/*
+tr:nth-child(odd) { 
+	background-color:#c9f0b1;
+}
+*/

@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>FTjQ: Event bubbling</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+
+	<div id="container">
+		<table id="calc">
+			<tr>
+				<td class="number">1</td>
+				<td class="number">2</td>
+				<td class="number">3</td>
+				<td class="operator">+</td>
+			</tr>
+			<tr>
+				<td class="number">4</td>
+				<td class="number">5</td>
+				<td class="number">6</td>
+				<td class="operator">-</td>
+			</tr>
+			<tr>
+				<td class="number">7</td>
+				<td class="number">8</td>
+				<td class="number">9</td>
+				<td class="operator">*</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td class="number">0 </td>
+				<td> </td>
+				<td class="operator">/</td>
+			</tr>
+			<tr>
+				<td id="display" colspan="3"></td>
+				<td class="operator">=</td>
+			</tr>
+			<tr>
+				<td id="result" colspan="4"></td>
+			</tr>
+		</table>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

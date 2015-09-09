@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title>FTjQ: Modifying selected element styles</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+
+	<div id="container">
+		<div id="messageBar">
+			<img id="image" width="100" height="66" />
+			<span id="message">Welcome to the store</span>
+		</div>
+		<div id="controlBar">
+			<select id="categories">
+				<option value="all">All</option>
+				<option value="office">Office</option>
+				<option value="home">Home</option>
+				<option value="sale">Sale</option>
+			</select>
+			<span id="saleMessage">You've got a deal!</span>
+ 		</div>
+		<div id="items" class="display">
+			<div id="buttons" class="item home">
+				<img src="images/buttons.jpg" width="200" />
+				<p><span id="name">Buttons</span>: <span id="price">$2.95</span></p>
+			</div>
+			<div id="pencils" class="item office sale">
+				<img src="images/pencils.jpg" width="200" />
+				<p><span id="name">Pencils</span>: <span id="price">$1.95</span></p>
+			</div>
+			<div id="glitter" class="item home">
+				<img src="images/glitter.jpg" width="200" />
+				<p><span id="name">Glitter</span>: <span id="price">$0.95</span></p>
+			</div>
+			<div id="markers" class="item office">
+				<img src="images/markers.jpg" width="200" />
+				<p><span id="name">Markers</span>: <span id="price">$3.95</span></p>
+			</div>
+			<div id="flowers" class="item home">
+				<img src="images/flowers.jpg" width="200" />
+				<p><span id="name">Flowers</span>: <span id="price">$6.95</span></p>
+			</div>
+			<div id="staples" class="item office sale">
+				<img src="images/staples.jpg" width="200" />
+				<p><span id="name">Staples</span>: <span id="price">$3.95</span></p>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

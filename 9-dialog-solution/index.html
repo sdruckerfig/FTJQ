@@ -1,0 +1,92 @@
+<html>
+<head>
+	<title>FTjQ: Implementing jQuery UI Dialog</title>
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.10.0.custom/css/ui-lightness/jquery-ui-1.10.0.custom.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+<body>
+ 
+	<form id="reviewform" action="">
+		<fieldset>
+			<legend>Classic Book Review</legend>
+			<p>
+				<label class="field" for="title">Book Title</label>
+				<input id="title" />
+			</p>
+			<p>
+				<label class="field" for="author">Book Author</label>
+				<span id="author">&nbsp;</span>
+			</p>
+			<p>
+				<label class="field" for="started">Started Reading</label>
+				<input name="startdate" type="" />
+			</p>
+			<p>
+				<label class="field" for="finished">Finished Reading</label>
+				<input name="finishdate" type="" />
+			</p>
+			<p>
+				<label class="field" for="reviewdate">Review Date</label>
+				<input name="reviewdate" type=""/>
+			</p>
+			<p>
+				<label class="field" for="comments">Comments</label>
+				<textarea name="comments"></textarea>
+			</p>
+			<p>
+				<label class="field" for="rating">Rating</label>
+				<!-- <input name="rating" type="" /> -->
+				<!-- create display area for ratingslider -->
+				<span id="rating"></span>
+				<!-- create target element to be converted to a slider -->
+				<div id="ratingslider"></div>
+			</p>
+			<p>
+				<label class="field" for="buy">Would you buy a vintage copy?</label>
+				<input name="buy" type="checkbox" />
+			</p>
+			<!-- define form section to control visibility -->
+			<div id="offerwidgets">
+				<p>
+					<label class="field" for="condition">Book condition</label>
+					<div id="conditionbuttonset">
+						<input id="condition1" type="radio" name="condition" /><label for="condition1">Good</label>		
+						<input id="condition2" type="radio" name="condition" /><label for="condition2">Fine</label>		
+						<input id="condition3" type="radio" name="condition" checked="checked" /><label for="condition3">Mint</label>	
+					</div>	
+				</p>
+				<p>
+					<label class="field" for="offer">What would you offer?</label>
+					<!-- <input name="offer" type="" /> -->
+					<!-- create display area for offerslider -->
+					<span id="offer"></span>
+					<!-- create target element to be converted to a slider -->
+					<div id="offerslider"></div>
+				</p>
+				<!-- Target for email provided in dialog -->
+				<p>
+					<span id="offeremail"></span>
+				</p>
+			</div>
+			<!-- Div for display as dialog -->
+			<div id="offerdialog">
+				<fieldset>
+					<legend>Contact me with offers</legend>
+					<label class="field" for="offeraddress">Email Address</label>
+					<input name="email" type="text" class="email" />
+				</fieldset>
+			</div>
+			<p>
+				<label class="field" for="submit">&nbsp;</label>
+				<button id="submit">Submit</button>
+			</p>
+		</fieldset>
+	</form>
+
+	<script type="text/javascript" src="js/jquery-ui-1.10.0.custom/js/jquery-1.9.0.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-i18n.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

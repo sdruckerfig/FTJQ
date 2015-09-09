@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>FTjQ: Using Ajax parameters and callbacks</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+
+	<div id="container">
+		<div id="messageBar">
+			<p class="title1">Team Manager<p>
+		</div>
+		<div id="controlBar">
+			<form id="configureMember">
+				<fieldset>
+					<legend>Configure Member</legend>
+					First: <input type="text" name="firstName" />
+					Last: <input type="text" name="lastName" />
+					Role: <select name="role">
+						<option value="Contributor">Contributor</option>
+						<option value="Manager">Manager</option>
+					</select>
+					<!-- hold uniqueID when editing a record -->
+					<input type="hidden" name="uniqueId" />
+					<button id="configureButton">Create</button>
+				</fieldset>
+			</form>
+		</div>
+		<div id="rosterContainer">
+			<p class="title2">Roster</p>
+			<table id="teamTable" class="tableDisplay">
+				<tr class="headerRow">
+					<th width="25%">&nbsp;</th>
+					<th width="25%">First</th>
+					<th width="25%">Last</th>
+					<th width="25%">Role</th>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

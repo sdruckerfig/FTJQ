@@ -1,0 +1,56 @@
+[
+	{
+		"product" : "Buttons",
+		"price" : "2.95",
+		"image" : "buttons.jpg",
+		"department" : "home",
+		"status" : "full-price",
+		"inventory" : "117",
+		"discount" : ".15"
+	},
+	{
+		"product" : "Pencils",
+		"price" : "1.95",
+		"image" : "pencils.jpg",
+		"department" : "office",
+		"status" : "sale",
+		"inventory" : "42",
+		"discount" : ".20"
+	},
+	{
+		"product" : "Glitter",
+		"price" : "0.95",
+		"image" : "glitter.jpg",
+		"department" : "home",
+		"status" : "full-price",
+		"inventory" : "94",
+		"discount" : ".10"
+	},
+	{
+		"product" : "Markers",
+		"price" : "3.95",
+		"image" : "markers.jpg",
+		"department" : "office",
+		"status" : "full-price",
+		"inventory" : "135",
+		"discount" : ".15"
+	},
+	{
+		"product" : "Flowers",
+		"price" : "4.95",
+		"image" : "flowers.jpg",
+		"department" : "home",
+		"status" : "full-price",
+		"inventory" : "11",
+		"discount" : ".40"
+	},
+	{
+		"product" : "Staples",
+		"price" : "0.95",
+		"image" : "staples.jpg",
+		"department" : "office",
+		"status" : "sale",
+		"inventory" : "498",
+		"discount" : ".10"
+	}
+]

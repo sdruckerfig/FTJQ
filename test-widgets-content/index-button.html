@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>FTjQ: Implementing jQuery UI Submission</title>
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.10.0.custom/css/ui-lightness/jquery-ui-1.10.0.custom.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+<body>
+ 
+	<form id="reviewform" action="data/review.php">
+		<fieldset>
+			<!-- define form section to control visibility -->
+			<div id="offerwidgets">
+				<p>
+					<label class="field" for="condition">Book condition</label>
+					<div id="conditionbuttonset">
+						<input id="condition1" type="radio" name="condition" value="Good" />
+							<label for="condition1">Good</label>		
+						<input id="condition2" type="radio" name="condition" value="Fine" />
+							<label for="condition2">Fine</label>		
+						<input id="condition3" type="radio" name="condition" value="Mint" checked="checked" />
+							<label for="condition3">Mint</label>	
+					</div>	
+				</p>
+			</div>
+			<p>
+				<label class="field" for="submit">&nbsp;</label>
+				<button id="submit">Submit</button>
+			</p>
+		</fieldset>
+	</form>
+
+	<script type="text/javascript" src="js/jquery-ui-1.10.0.custom/js/jquery-1.9.0.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.0.custom/js/jquery-ui-1.10.0.custom.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-i18n.min.js"></script>
+	<script type="text/javascript" src="js/jquery-validation-1.10.0/dist/jquery.validate.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

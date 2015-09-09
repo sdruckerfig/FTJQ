@@ -1,0 +1,29 @@
+#container {
+	width: 800px;
+	font-family: sans-serif;
+}
+#controlBar {
+	padding: 10px;
+}
+.display {
+	padding: 20px;
+	height: 450px;
+	border: 2px solid grey;
+}
+.item {
+	float: left;
+	padding: 10px;
+	margin: 10px;
+}
+.highlight {
+	background-color: grey;
+}
+.office {
+	background-color: #0d90b5;
+}
+.home {
+	background-color: #c9f0b1;
+}
+.sale {
+	outline: 10px solid #cf4d47;
+}

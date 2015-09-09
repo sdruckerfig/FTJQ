@@ -1,0 +1,17 @@
+
+table {
+	width: 800px;
+	border: 2px solid grey;
+	margin: 5px;
+	font-family: sans-serif;
+}
+.handle {
+	background-color: #00ff00;
+	text-align: right;
+}
+#peopleTable .ui-selecting {
+	background: #33cc33;
+}
+#peopleTable .ui-selected {
+	background: #00cc33;
+}
